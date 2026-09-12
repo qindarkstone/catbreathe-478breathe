@@ -1,0 +1,8 @@
+本目录为 App 中使用的小猫原始素材：
+
+- 1_inhale_static.jpg / 2_hold_static.jpg / 3_exhale_static.jpg —— 静态小猫（吸气/屏息/呼气）
+- 4_inhale_dyn.jpg / 5_hold_dyn.jpg / 6_exhale_dyn.jpg —— 动态神情小猫（用于呼吸主体抠图）
+- 1_inhale_static.clean.jpg —— 已去除右下角“AI生成”水印的图标源图（对应 mipmap 图标）
+
+app/src/main/res/drawable-nodpi/ 下的 cat_inhale.png / cat_hold.png / cat_exhale.png
+是 4/5/6 三张动态图经 tools/cutout.py 抠图（透明背景、丝滑边缘）后的结果。
